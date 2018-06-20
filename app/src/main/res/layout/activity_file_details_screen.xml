@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/background"
+  tools:context="com.silverkey.phr.PHR.FolderDetailsScreen.FolderDetailsScreen">
+
+  <android.support.v7.widget.Toolbar
+    android:id="@+id/tb_folder"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:background="@color/colorPrimary">
+    <TextView
+      android:id="@+id/tv_folder_name_detail"
+      android:textStyle="normal"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginEnd="15dp"
+      android:gravity="start|center"
+      android:text="@string/folder_name_detail_screen"
+      android:textColor="@color/white"
+      android:textSize="20sp"/>
+  </android.support.v7.widget.Toolbar>
+
+
+  <android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/uploaded_files_list_swipe"
+    android:layout_width="match_parent"
+    android:layout_height="626dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tb_folder"
+    >
+    <android.support.v7.widget.RecyclerView
+      android:id="@+id/uploaded_files_on_folder"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:listitem="@layout/file_item_layout"
+      >
+    </android.support.v7.widget.RecyclerView>
+
+
+  </android.support.v4.widget.SwipeRefreshLayout>
+
+  <Button
+    android:id="@+id/upload_btn_on_folder"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_margin="15dp"
+    android:layout_marginBottom="568dp"
+    android:layout_marginEnd="268dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:background="@mipmap/upload_file"
+    app:layout_anchorGravity="bottom|right|end"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    tools:ignore="NotSibling"/>
+
+</android.support.constraint.ConstraintLayout>

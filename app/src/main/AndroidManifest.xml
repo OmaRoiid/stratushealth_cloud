@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="com.silverkey.phr">
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.CAMERA"/>
+
+  <uses-feature
+    android:name="android.hardware.camera.any"
+    android:required="true"/>
+  <uses-feature
+    android:name="android.hardware.camera.autofocus"
+    android:required="false"/>
+
+  <supports-screens
+    android:anyDensity="true"
+    android:largeScreens="true"
+    android:normalScreens="true"
+    android:resizeable="true"
+    android:smallScreens="true"
+    android:xlargeScreens="true"/>
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/share_icon"
+    android:label="@string/app_name"
+    android:name=".Helpers.PhrApplication"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme"
+    android:largeHeap="true"
+    tools:replace="android:icon">
+    <activity android:name=".PHR.SplashScreen.SplashScreen">
+     <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity
+      android:name=".PHR.LoginScreen.LoginScreen"
+      android:screenOrientation="portrait"
+      android:windowSoftInputMode="stateHidden|adjustPan"/>
+    <activity android:name=".PHR.UploadedFilesScreen.UploadedFilesScreen">
+
+    </activity>
+    <activity
+      android:name=".PHR.RegisterationScreen.RegistrationScreen"
+      android:screenOrientation="portrait"
+      android:windowSoftInputMode="stateHidden|adjustPan">
+    </activity>
+    <activity android:name=".PHR.ShareFileScreen.ShareFileScreen">
+    </activity>
+    <activity android:name=".PHR.FolderDetailsScreen.FolderDetailsScreen">
+
+    </activity>
+  </application>
+
+</manifest>

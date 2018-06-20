@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\SilverKey\\Project\\SH\\app\\build\\intermediates\\res\\merged\\debug\\values-ga\\values-ga.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Omar_Salem\\.gradle\\caches\\transforms-1\\files-1.1\\filechooser-1.1.8.aar\\48f4ff97d737c2eba5b890d9d08aca37\\res\\values-ga\\values-ga.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,112,175,266",
+                        "endColumns": "56,62,90,91",
+                        "endOffsets": "107,170,261,353"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\SilverKey\\Project\\SH\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ga\\values-ga.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Omar_Salem\\.gradle\\caches\\transforms-1\\files-1.1\\filechooser-1.1.8.aar\\48f4ff97d737c2eba5b890d9d08aca37\\res\\values-ga\\values-ga.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,112,175,266",
+                        "endColumns": "56,62,90,91",
+                        "endOffsets": "107,170,261,353"
+                    }
+                }
+            ]
+        }
+    ]
+}

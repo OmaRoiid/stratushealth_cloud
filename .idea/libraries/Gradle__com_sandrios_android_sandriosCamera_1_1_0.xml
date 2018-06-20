@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sandrios.android:sandriosCamera-1.1.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sandriosCamera-1.1.0.aar/0be31bfbe72ea5e4eb399e0e0e2ed77c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sandriosCamera-1.1.0.aar/0be31bfbe72ea5e4eb399e0e0e2ed77c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sandrios.android/sandriosCamera/1.1.0/3f9ffed3a130012def3a16205f8b1ef9c6d4425/sandriosCamera-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

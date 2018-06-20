@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/background"
+  android:orientation="vertical"
+  >
+  <TextView
+    android:id="@+id/tv_header"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_alignParentStart="true"
+    android:padding="10dp"
+    android:text="@string/add_file_folder_tv"
+    android:textColor="@color/colorPrimary"
+    android:textSize="16sp"/>
+
+  <View
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="8dp"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/tv_header"
+    android:background="@color/colorSheetDivider"/>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <LinearLayout
+      android:id="@+id/layout_create_folder"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:orientation="vertical">
+
+      <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/create_folder"/>
+
+      <com.silverkey.Views.TextViewWithFont
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:text="@string/create_folder_tv"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/layout_upload_folder"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:orientation="vertical">
+
+      <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/upload_folder"/>
+
+      <com.silverkey.Views.TextViewWithFont
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:text="@string/upload_folder_tv"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/layout_upload_file"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:orientation="vertical">
+
+      <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/file_upload"/>
+
+      <com.silverkey.Views.TextViewWithFont
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:gravity="center"
+        android:text="@string/upload_file_tv"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/layout_take_photo"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:orientation="vertical">
+
+      <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/photo_capture"/>
+
+      <com.silverkey.Views.TextViewWithFont
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:gravity="center"
+        android:text="@string/take_photo_tv"
+        android:textAlignment="center"
+        android:textColor="@color/dark_gray"/>
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.shuhart.bubblepagerindicator:bubblepagerindicator-1.0.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bubblepagerindicator-1.0.6.aar/87987a9b885aa38349227a0159100ffe/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bubblepagerindicator-1.0.6.aar/87987a9b885aa38349227a0159100ffe/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shuhart.bubblepagerindicator/bubblepagerindicator/1.0.6/489960b898420765c86d71a5fa254bb2572ecff8/bubblepagerindicator-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

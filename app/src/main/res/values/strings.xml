@@ -1,0 +1,58 @@
+<resources>
+  <string name="app_name">PHR</string>
+
+  <string name="enter_your_name">Please, enter your name</string>
+  <string name="your_name">Your name</string>
+  <string name="enter">Enter</string>
+  <string name="done">Done</string>
+  <string name="retry">Retry</string>
+  <string name="cancel">Cancel</string>
+  <string name="loading">Loading</string>
+  <string name="create_account">Create New Account</string>
+  <string name="username">Username</string>
+  <string name="email"> Email</string>
+  <string name="password">Password</string>
+  <string name="have_account">Already have an account?</string>
+  <string name="login">Login</string>
+  <string name="not_member">Not a member yet?</string>
+  <string name="register">Register</string>
+  <string name="login_to_your_Account"> Login to your account</string>
+  <!--Files Screen-->
+  <string name="my_files">My Files</string>
+  <string name="file_name_hint"> File name</string>
+  <string name="downloading">Downloading</string>
+  <string name="uploading">Uploading</string>
+  <string name="folders_tv">Folders</string>
+  <string name="files_tv">Files</string>
+  <string name="folder_name_tv">Folder Name</string>
+  <string name="firstTime">Please upload your file </string>
+  <!--Bottom Sheet Screen-->
+  <string name="title_activity_upload_screen">UploadScreen</string>
+  <string name="add_file_folder_tv">Add File/Folder</string>
+  <string name="create_folder_tv">Create Folder</string>
+  <string name="upload_folder_tv">Upload Folder</string>
+  <string name="upload_file_tv">Upload File</string>
+  <string name="take_photo_tv">Take Photo</string>
+  <!--Error Msgs-->
+  <string name="error">Error</string>
+  <string name="no_file_selected">No File Selected</string>
+  <string name="email_error">Invalid Email </string>
+  <string name="password_error">Invalid Password </string>
+  <string name="internet_connection_error">Internet Connection Error</string>
+  <string name="username_error">- Usernames must start with a letter or number, and can contain only letters, numbers, and the dash (-) character. \n
+                                    - If there is any dashes then, every dash (-) character must be immediately preceded and followed by a letter or number; consecutive dashes are not permitted. \n
+                                    - All letters must be lowercase. \n
+                                    - Usernames must be from 3 through 63 characters long."
+    </string>
+  <!--Dotes_bottom_sheet-->
+  <string name="share_bottom_sheet">Share</string>
+  <string name="move_bottom_sheet">Move</string>
+  <string name="remove_bottom_sheet">Remove</string>
+  <string name="download_bottom_sheet">Download</string>
+  <!-- Custom_alert_view-->
+  <string name="yes_alert_view">Yes</string>
+  <string name="no_alert_view">No</string>
+  <string name="hint_alert_view">Please enter file name</string>
+  <string name="tittle_alert_view">Create Folder</string>
+  <string name="folder_name_detail_screen">Folder Name</string>
+</resources>
