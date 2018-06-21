@@ -8,6 +8,7 @@ import es.dmoral.toasty.Toasty
 
 /**
  * Created by Mohamed Taher on 2/6/2018.
+ * Updated by Omar Salem 5/29/2018.
  */
 object Shared {
 
