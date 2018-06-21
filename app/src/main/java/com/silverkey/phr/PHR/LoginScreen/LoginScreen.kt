@@ -28,14 +28,14 @@ class LoginScreen : AppCompatActivity(), LoginScreenListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         userSission= SessionManager(this)
-    //if( userSission.isLoggedIn()==false) {
+   if( userSission.isLoggedIn()==false) {
         setContentView(R.layout.activity_login_screen)
         handleOptions()
-   // }
-   /* else{
+    }
+   else{
         startUploadScreen(this@LoginScreen)
         finish()
-    }*/
+    }
     }
 
 
