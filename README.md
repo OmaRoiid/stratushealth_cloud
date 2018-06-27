@@ -41,6 +41,6 @@
 
 <h2>License</h2>
 
-Copyright 2017 Anabeesh
+Copyright 2018 Stratushealth Cloud
 
-Licensed under the [Apache License Version 2.0](LICENSE.md)
+Licensed under the [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
