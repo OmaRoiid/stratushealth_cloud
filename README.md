@@ -1,6 +1,6 @@
 <h1> Stratushealth Cloud </h1>
 
-- Cloud storage for medical records "MVP 2"
+- Cloud storage for medical records "Beta version"
 
 <h2>Features</h2>
 
